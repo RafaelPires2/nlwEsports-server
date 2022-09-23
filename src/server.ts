@@ -80,13 +80,6 @@ app.get('/games/:id/ads', async (request, response) => {
     }));
 })
  
-
-
-
-
-
-
-
 app.get('/ads', (request, response) => {
     return response.json([])
 })
